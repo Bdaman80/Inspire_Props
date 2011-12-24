@@ -263,7 +263,6 @@ ro.com.google.gmsversion=2.3_r3
 ro.sf.lcd_density=240
 rild.libpath=/system/lib/libhtc_ril.so
 wifi.interface=eth0
-#wifi.supplicant_scan_interval=60
 ro.telephony.default_network=0
 ro.opengles.version=131072
 media.a1026.nsForVoiceRec=1
@@ -279,18 +278,12 @@ persist.adb.notify=0
 #Dalvik Start Heapsize
 dalvik.vm.startheapsize=48m
 
-#Faster Ring When Dialing Out
-ro.telephony.call_ring.delay=1000
-
 #Power Save Mod
 pm.sleep_mode=1
 
 #Hardware Acceleration Mods
 debug.sf.hw=1
 video.accelerate.hw=1
-
-#Call Blackscreen Proximity Delay Tweak
-mot.proximity.delay=150
 
 #Added Rom Manager OTA Updates
 ro.rommanager.developerid=ClearD
