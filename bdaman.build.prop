@@ -143,10 +143,6 @@ ro.build.fingerprint=cingular_us/htc_ace/ace:2.3.3/GRI40/93396:user/release-keys
 ro.build.project=200368
 ro.product.version=ClearDroid 1.3.2
 keyguard.no_require_sim=1
-# end build properties
-#
-# system.prop for ace
-#
 
 ro.sf.lcd_density=240
 
@@ -195,18 +191,7 @@ ro.ril.update.org.acoustic = 1
 ro.phone_storage = 0
 
 # For ext4 file system
-ro.ext4fs = 0
-# For FOTA setting (leave empty value to use default)
-ro.htc.checkin.url = http://andchin.htc.com/android/checkin
-ro.htc.checkin.crashurl = http://andchin.htc.com/android/crash
-ro.htc.checkin.url_CN = http://andchin.htccomm.com.cn/android/checkin
-ro.htc.checkin.crashurl_CN = http://andchin.htccomm.com.cn/android/crash
-ro.htc.checkin.exmsg.url = http://fotamsg.htc.com/android/extra/
-ro.htc.checkin.exmsg.url_CN = http://fotamsg.htccomm.com.cn/android/extra/
-ro.htc.appupdate.url = http://apu-chin.htc.com/check-in/rws/and-app/update
-ro.htc.appupdate.url_CN = http://apu-chin.htccomm.com.cn/check-in/rws/and-app/update
-ro.htc.appupdate.exmsg.url = http://apu-msg.htc.com/extra-msg/rws/and-app/msg
-ro.htc.appupdate.exmsg.url_CN = http://apu-msg.htccomm.com.cn/extra-msg/rws/and-app/msg
+ro.ext4fs = 1
 
 # Release Bluetooth HW/SW information
 ro.bt.chipset	= Broadcom BCM4329-B1
